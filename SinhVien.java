@@ -11,12 +11,6 @@ public class SinhVien {
         tongSoSV++; //tang bien dem
     }
 
-    public void setThongTin(String maSV, String hoTen, int tuoi) {
-        this.maSV = maSV;
-        this.hoTen = hoTen;
-        this.tuoi = tuoi;
-    }
-
     public void hienThiThongTin() {
         System.out.println("Ma SV: " + maSV);
         System.out.println("Ho tên: " + hoTen);
