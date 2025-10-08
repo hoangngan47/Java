@@ -93,7 +93,8 @@ class Order {
 
     public void checkout() {
         double total = getTotal();
-        paymentMethod.pay(total, customerName);
+        
+paymentMethod.pay(total, customerName);
         }
     }
 
