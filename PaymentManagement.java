@@ -49,7 +49,10 @@ abstract class Product {
 
 
 class ElectronicProduct extends Product {
+    @SuppressWarnings("unused")
     private String imei;
+    @SuppressWarnings("unused")
+    
     private int warrantyMonths;
 
     public ElectronicProduct(String id, String name, double price, String imei, int warrantyMonths) {
@@ -60,6 +63,7 @@ class ElectronicProduct extends Product {
 }
 
 class FoodProduct extends Product {
+    @SuppressWarnings("unused")
     private String expiryDate;
 
     public FoodProduct(String id, String name, double price, String expiryDate) {

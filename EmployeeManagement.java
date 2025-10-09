@@ -18,8 +18,8 @@ abstract class Employee{
 }
 
 class OfficeEmployee extends Employee {
-    private final int workingDays;
-    private final double daySalary = 100;
+    private int workingDays;
+    private double daySalary = 100;
 
     public OfficeEmployee (String name, int age, int workingDays){
         super(name,age);
@@ -33,8 +33,8 @@ class OfficeEmployee extends Employee {
 }
 
 class TechnicalEmployee extends Employee{
-    private final int workingHours;
-    private final double hourSalary;
+    private int workingHours;
+    private double hourSalary;
 
     public TechnicalEmployee(String name, int age, int workingHours, double hourSalary){
         super(name,age);
