@@ -50,9 +50,11 @@ class TechnicalEmployee extends Employee{
 
 public class EmployeeManagement {
     public static void main(String[] args) {
+        
         Employee oe1 = new OfficeEmployee( "Kim Ji Won", 32, 30);
         oe1.mathSalary();
         oe1.hienThiThongTin();
+        
         Employee te1 = new TechnicalEmployee("Pham Hoang Ngan", 19, 240, 100);
         te1.mathSalary();
         te1.hienThiThongTin();
